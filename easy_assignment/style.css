@@ -1,77 +1,79 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    color: #333;
     background-color: #777;
     width: 960px;
     font-size: 18px;
-    margin: auto;
-}
-
-header {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
     background: #ebebeb;
-}
-
-h1 {
-    padding: 40px 0;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: normal;
-    font-size: initial;
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
-#nav, #footer {
-    padding: 40px 0;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: normal;
-    font-size: initial;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #777;
+  }
+  
+  #middle {
+    color: #333;
     background: #ebebeb;
-}
+  }
 
-#section, #header, #p {
-    padding: 15px 0;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 450px;
-    margin-left: align;
-    text-align: center;
-    font-weight: normal;
-    font-size: initial;
+  #full {
+    float: left;
+    width: 525px;
+    height: 250px;
+    overflow: auto;
+    clear: both;
+    color: #777;
+    padding: 20px;
     background: #ebebeb;
-}
-
-#article {
-    padding: 15px 0;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 450px;
-    margin-left: align;
-    text-align: center;
-    font-weight: normal;
-    font-size: initial;
+  }
+  
+  #division {
+    padding: 10px;
+    height: 200px;
     color: #ebebeb;
-}
-
-#aside {
-    padding: px 0;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: align;
-    margin-left: 525px;
-    text-align: center;
-    font-weight: normal;
-    font-size: initial;
+    background: #777;
+    z-index: 1;
+  }
+  
+  #strong {
+    padding: 20px;
+    margin: 20px;
+    color: #777;
     background: #ebebeb;
-}
+    z-index: 2;
+  }
+  
+  #paragraph {
+    padding: 20px;
+    margin: 20px;
+    color: #777;
+    background: #ebebeb;
+    z-index: 2;
+  }
+  
+  aside {
+    float: right;
+    width: 335px;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ebebeb;
+  }
+  
+  footer {
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+    background: #ebebeb;
+  }
+  
