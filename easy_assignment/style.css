@@ -45,19 +45,16 @@ body {
     z-index: 1;
   }
   
-  #strong {
+  .box-set {
     padding: 20px;
     margin: 20px;
+    height: 20px;
     color: #777;
     background: #ebebeb;
-    z-index: 2;
   }
   
+  #strong
   #paragraph {
-    padding: 20px;
-    margin: 20px;
-    color: #777;
-    background: #ebebeb;
     z-index: 2;
   }
   
