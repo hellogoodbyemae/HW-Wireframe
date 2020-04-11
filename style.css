@@ -60,7 +60,7 @@ body {
 
     width: 525px;
 
-    height: 250px;
+    height: 270px;
 
     overflow: auto;
 
@@ -70,7 +70,6 @@ body {
 
     padding-top: 30px;
 
-
     background: #ebebeb;
 
   }
@@ -79,7 +78,7 @@ body {
 
   #division {
 
-    padding-top: 20px;
+    padding-top: 30px;
     
     margin-top: 10px;
 
@@ -138,7 +137,7 @@ body {
 
     width: 350px;
 
-    height: 280px;
+    height: 300px;
 
     padding-top: 30px;
 
